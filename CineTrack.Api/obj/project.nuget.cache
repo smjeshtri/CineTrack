@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "2fbNvBtL6Es=",
+  "success": true,
+  "projectFilePath": "/Users/saramjeshtri/CineTrack/CineTrack.Api/CineTrack.Api.csproj",
+  "expectedPackageFiles": [
+    "/Users/saramjeshtri/.nuget/packages/microsoft.aspnetcore.openapi/10.0.7/microsoft.aspnetcore.openapi.10.0.7.nupkg.sha512",
+    "/Users/saramjeshtri/.nuget/packages/microsoft.openapi/2.0.0/microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
