@@ -22,7 +22,6 @@
 /Users/saramjeshtri/CineTrack/CineTrack.Client/obj/Debug/net10.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
 /Users/saramjeshtri/CineTrack/CineTrack.Client/obj/Debug/net10.0/scopedcss/bundle/CineTrack.Client.styles.css
 /Users/saramjeshtri/CineTrack/CineTrack.Client/obj/Debug/net10.0/scopedcss/projectbundle/CineTrack.Client.bundle.scp.css
-/Users/saramjeshtri/CineTrack/CineTrack.Client/obj/Debug/net10.0/compressed/7fqekyjvjp-{0}-b9sayid5wm-b9sayid5wm.gz
 /Users/saramjeshtri/CineTrack/CineTrack.Client/obj/Debug/net10.0/compressed/jjo8e0q32v-{0}-61n19gt1b8-61n19gt1b8.gz
 /Users/saramjeshtri/CineTrack/CineTrack.Client/obj/Debug/net10.0/compressed/usk1lyqvt8-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
 /Users/saramjeshtri/CineTrack/CineTrack.Client/obj/Debug/net10.0/compressed/vcm6s3jlz5-{0}-bqjiyaj88i-bqjiyaj88i.gz
@@ -96,3 +95,4 @@
 /Users/saramjeshtri/CineTrack/CineTrack.Client/obj/Debug/net10.0/CineTrack.Client.pdb
 /Users/saramjeshtri/CineTrack/CineTrack.Client/obj/Debug/net10.0/CineTrack.Client.genruntimeconfig.cache
 /Users/saramjeshtri/CineTrack/CineTrack.Client/obj/Debug/net10.0/ref/CineTrack.Client.dll
+/Users/saramjeshtri/CineTrack/CineTrack.Client/obj/Debug/net10.0/compressed/7fqekyjvjp-{0}-bghd65fu7e-bghd65fu7e.gz
