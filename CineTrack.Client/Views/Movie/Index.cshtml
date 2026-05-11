@@ -1,0 +1,50 @@
+@{
+    ViewData["Title"] = "My List";
+}
+
+<div style="background:#0a0a0a; min-height:100vh;" class="py-5">
+    <div class="container">
+
+        <!-- Header -->
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h2 class="text-white fw-bold">My List</h2>
+            <a href="#" class="btn btn-sm ct-btn-gold" style="background:#D4A017; color:#000;">+ Add New</a>
+        </div>
+
+        <!-- Table -->
+        <div class="rounded-3 overflow-hidden" style="border:1px solid #2a2a2a;">
+            <table class="table table-dark table-hover mb-0">
+                <thead>
+                  <tr style="background:#D4A017; color:#000;">
+                      <th>#</th>
+                      <th>Title</th>
+                      <th>Genre</th>
+                      <th>Release Year</th>
+                      <th>Options</th>
+                  </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Inception</td>
+                        <td>Sci-Fi</td>
+                        <td>2010</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-danger">Remove</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Interstellar</td>
+                        <td>Sci-Fi</td>
+                        <td>2014</td>
+                        <td>
+                            <a href="#" class="btn btn-sm btn-danger">Remove</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</div>
