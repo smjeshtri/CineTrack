@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CineTrack.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+09e1f8992f9cc4593552f62c0388ea22236b4e12")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3ace12708855a493b9058451215d88a78f70d334")]
 [assembly: System.Reflection.AssemblyProductAttribute("CineTrack.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CineTrack.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
