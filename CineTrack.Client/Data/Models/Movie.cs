@@ -8,6 +8,7 @@ namespace CineTrack.Client.Data.Models
         public int ReleaseYear { get; set; }
         public string? Notes { get; set; }
         public int? UserId { get; set; }
+        public User? User { get; set; }
         public DateTime DateCreated { get; set; } = DateTime.UtcNow;
         public DateTime? DateUpdated { get; set; }
     }

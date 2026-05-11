@@ -22,7 +22,10 @@
                    class="text-secondary text-decoration-none ct-nav-link">Home</a>
                 <a asp-controller="Movie" asp-action="Index"
                    class="text-secondary text-decoration-none ct-nav-link">My List</a>
-                   <a href="#" class="btn btn-sm ct-btn-gold" style="background:#D4A017; color:#000; font-weight:500;">Sign In</a>
+                <a asp-controller="Auth" asp-action="Users"
+                   class="text-secondary text-decoration-none ct-nav-link">Users</a>
+                <a asp-controller="Auth" asp-action="Login" class="btn btn-sm ct-btn-gold"
+                   style="background:#D4A017; color:#000; font-weight:500;">Sign In</a>
             </div>
         </div>
     </nav>

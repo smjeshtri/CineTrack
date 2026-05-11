@@ -1,0 +1,63 @@
+@{
+    ViewData["Title"] = "Users";
+}
+
+<div style="background:#0a0a0a; min-height:100vh;" class="py-5">
+    <div class="container">
+
+        <!-- Header -->
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h2 class="text-white fw-bold">Users</h2>
+        </div>
+
+        <!-- User Cards -->
+        <div class="row g-4">
+
+            <!-- Single User Card -->
+            <div class="col-md-6">
+                <div class="p-4 rounded-3 ct-card" style="background:#1a1a1a; border:1px solid #2a2a2a;">
+                    <h5 class="text-white mb-1">Sara Mjeshtri</h5>
+                    <p class="text-secondary mb-3">sara@cinetrack.com</p>
+                    <p class="text-secondary mb-3">This user has added <span style="color:#D4A017;">3 movies</span></p>
+
+                    <button class="btn btn-sm mb-3" 
+                        style="background:#D4A017; color:#000;"
+                        onclick="this.nextElementSibling.classList.toggle('d-none')">
+                        Show Details
+                    </button>
+
+                    <!-- Details Table -->
+                    <div class="d-none">
+                        <table class="table table-dark table-hover mb-0 rounded-3 overflow-hidden">
+                            <thead>
+                                <tr style="background:#D4A017; color:#000;">
+                                    <th>Title</th>
+                                    <th>Genre</th>
+                                    <th>Year</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Inception</td>
+                                    <td>Sci-Fi</td>
+                                    <td>2010</td>
+                                </tr>
+                                <tr>
+                                    <td>Interstellar</td>
+                                    <td>Sci-Fi</td>
+                                    <td>2014</td>
+                                </tr>
+                                <tr>
+                                    <td>The Dark Knight</td>
+                                    <td>Action</td>
+                                    <td>2008</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

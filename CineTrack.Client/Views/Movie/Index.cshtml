@@ -24,24 +24,18 @@
                   </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>Inception</td>
-                        <td>Sci-Fi</td>
-                        <td>2010</td>
-                        <td>
-                            <a href="#" class="btn btn-sm btn-danger">Remove</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>Interstellar</td>
-                        <td>Sci-Fi</td>
-                        <td>2014</td>
-                        <td>
-                            <a href="#" class="btn btn-sm btn-danger">Remove</a>
-                        </td>
-                    </tr>
+                  @foreach (var movie in Model)
+                  {
+                      <tr>
+                          <td>@Model.IndexOf(movie) + 1</td>
+                          <td>@movie.Title</td>
+                          <td>@movie.Genre</td>
+                          <td>@movie.ReleaseYear</td>
+                          <td>
+                              <a href="#" class="btn btn-sm btn-danger">Remove</a>
+                          </td>
+                      </tr>
+                  }
                 </tbody>
             </table>
         </div>

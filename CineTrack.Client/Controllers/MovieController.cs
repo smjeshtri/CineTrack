@@ -1,5 +1,5 @@
+using CineTrack.Client.Data.Models.ViewModel;
 using Microsoft.AspNetCore.Mvc;
-using CineTrack.Client.Data.Models;
 
 namespace CineTrack.Client.Controllers
 {
@@ -7,17 +7,13 @@ namespace CineTrack.Client.Controllers
     {
         public IActionResult Index()
         {
-            var movie = new Movie
+            var movies = new List<MovieViewModel>
             {
-              Id = 1,
-              Title = "Inception",
-              Genre = "Sci-Fi",
-              ReleaseYear = 2010
+                new MovieViewModel { Title = "Inception", Genre = "Sci-Fi", ReleaseYear = 2010 },
+                new MovieViewModel { Title = "Interstellar", Genre = "Sci-Fi", ReleaseYear = 2014 },
+                new MovieViewModel { Title = "The Dark Knight", Genre = "Action", ReleaseYear = 2008 }
             };
-
-            var allData = new List <Movie>();
-            allData.Add(movie);
-            return View(allData);
+            return View(movies);
         }
     }
 }
